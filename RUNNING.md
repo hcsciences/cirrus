@@ -13,7 +13,7 @@ Operational guide for setting up, running, and developing Cirrus. For an overvie
 ## Initial setup
 
 ```bash
-git clone git@github.com:gregmundy/cirrus.git
+git clone git@github.com:hcsciences/cirrus.git
 cd cirrus
 cp .env.example .env             # default password is "cirrus_dev" — rotate before any non-local deploy
 docker compose up --build
